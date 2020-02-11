@@ -197,12 +197,12 @@ mpy_files = \
 	dh $@
 
 %.mpy: %.py
-	mpy-cross -v -v -mcache-lookup-bc $<
+	pybricks-mpy-cross -v -v -mcache-lookup-bc $<
 
 # compile .py > .mpy
 override_dh_auto_build: $(mpy_files)
 
 override_dh_auto_install:
 	for d in $(mpy_files); do \
-		install -D --mode=644 $$d debian/micropython-lib/usr/lib/micropython/$${d#*/}; \
+		install -D --mode=644 $$d debian/pybricks-micropython-lib/usr/lib/pybricks-micropython/$${d#*/}; \
 	done

@@ -1,31 +1,5 @@
-micropython-lib (1.9.3.git0.f20d89c.ev3dev2) stable; urgency=medium
+pybricks-micropython-lib (1.9.3.152~gb23b913) stretch; urgency=medium
 
-  * debian: don't compile setup.py
+  * Initial release.
 
- -- David Lechner <david@lechnology.com>  Sun, 01 Jul 2018 15:51:53 -0500
-
-micropython-lib (1.9.3.git0.f20d89c.ev3dev1) stable; urgency=medium
-
-  * merge upstream/master 
-
- -- David Lechner <david@lechnology.com>  Sun, 01 Jul 2018 11:56:35 -0500
-
-micropython-lib (1.9ev3dev3) testing; urgency=medium
-
-  * Fix extra /usr/lib/micropython/micropython-lib directory in binary package
-  * Compile modules to .mpy before installing
-  * Change architecture to any
-
- -- David Lechner <david@lechnology.com>  Thu, 07 Sep 2017 16:10:57 -0500
-
-micropython-lib (1.9ev3dev2) testing; urgency=medium
-
-  * change architecture to all
-
- -- David Lechner <david@lechnology.com>  Fri, 18 Aug 2017 17:49:02 -0500
-
-micropython-lib (1.9ev3dev1) testing; urgency=medium
-
-  * Initial release
-
- -- David Lechner <david@lechnology.com>  Thu, 17 Aug 2017 22:32:13 -0500
+ -- David Lechner <david@lechnology.com>  Mon, 10 Feb 2020 20:02:32 -0600

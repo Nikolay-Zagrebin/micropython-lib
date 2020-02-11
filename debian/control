@@ -1,14 +1,14 @@
-Source: micropython-lib
+Source: pybricks-micropython-lib
 Maintainer: David Lechner <david@lechnology.com>
 Section: python
 Priority: optional
-Build-Depends: debhelper (>= 10), mpy-cross
+Build-Depends: debhelper (>= 10), pybricks-mpy-cross
 Standards-Version: 3.9.8
-Vcs-Browser: https://github.com/ev3dev/micropython-lib
-Vcs-Git: https://github.com/ev3dev/micropython-lib.git
+Vcs-Browser: https://github.com/pybricks/micropython-lib
+Vcs-Git: https://github.com/pybricks/micropython-lib.git
 Homepage: https://micropython.org
 
-Package: micropython-lib
+Package: pybricks-micropython-lib
 Architecture: any
 Depends: ${misc:Depends}, micropython
 Description: Standard libraries for MicroPython
